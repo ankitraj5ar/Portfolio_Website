@@ -399,7 +399,7 @@ transform: scale(1.1, 1.1);
 .project .view-git{
     background-color: white;
     color:#6B0DC5;
-    padding:0.8rem 3.2rem;
+    padding:0.8rem 2.5rem;
 }
 .project{
     background-color: white;
@@ -1258,7 +1258,7 @@ view,.view-git{
     .menu-nav-ul a{
         color:#6B0DC5;
         display: block;
-        margin: 1.5rem 0;
+        margin: 1rem 0;
         padding:0.5rem;
     }
  
@@ -1267,7 +1267,7 @@ view,.view-git{
         display: block;
         text-align: center;
         background: white;
-        padding-top: 8rem;
+        padding-top: 2rem;
         height: 100vh;
         width: 100%;
         margin-top: 33px;
@@ -1285,7 +1285,7 @@ view,.view-git{
         opacity: 0;
     }  
     .menu-nav-ul li a {
-        font-size: 25px;
+        font-size: 1.2rem;
     }
     .menu-nav-ul li:nth-child(1){
         transition: all 0.5s ease 0.2s;
@@ -1331,11 +1331,25 @@ view,.view-git{
     .project{
         height: 820px;
     }
+    .menu-nav-ul{
+        padding-top: 1rem;
+    }
+    .menu-nav-ul li a{
+        font-size: 1.2rem;
+        margin:0.8rem 0;
+    }
 }
 @media screen and (max-width:576px) {
     /* mobile phones */
   .main{
       margin-top: 2rem;
+  }
+  .menu-nav-ul{
+     padding-top: 2rem;
+  }
+    .menu-nav-ul li a{
+     font-size: 1.3rem;
+     margin:1rem 0;
   }
   .logo img{
      margin-right: 0;
@@ -1419,7 +1433,7 @@ view,.view-git{
   }
   .project a{
       font-size: 0.8rem;
-      padding: 0.5rem 1.5rem;
+      padding: 0.5rem 2.2rem;
   }
   .project .view-git{
     padding: 0.5rem 2.2rem;
@@ -1598,6 +1612,9 @@ view,.view-git{
     }
     .project-intro-img{
         width: 50%;
+    }
+    .experience-card{
+        margin-top: 3rem;
     }
     .experience-wrapper-intro{
         padding-left: 3rem;
