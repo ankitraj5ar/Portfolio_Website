@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
   }
   /* inherit border-box on all elements before and after
    */
@@ -991,8 +992,11 @@ view,.view-git{
 .opener{
     display: none;
 }
+.scam{
+    display: none !important;
+}
 /* contact ends here */
-/* operner disable for destio opener == mobile responsive menu open window */
+/* operner disable for desktop opener == mobile responsive menu open window */
 /* media query */
 
 
